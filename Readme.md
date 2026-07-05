@@ -163,7 +163,7 @@ CREATE TABLE attendance (
 
 ## 🗄️ Database Schema (ER Diagram)
 
-![ER Diagram](images/erd.png)
+![ER Diagram](Images/erd.png)
 
 ---
 
@@ -631,4 +631,4 @@ SQL Joins, Aggregations, GROUP BY, HAVING, Subqueries, Window Functions, Data An
 ## 👤 Author
 
 Yasir Shah  
-Aspiring Data Analyst | SQL | Excel | Power BI
+Data Analyst | SQL | Excel
