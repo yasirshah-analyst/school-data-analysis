@@ -183,7 +183,7 @@ modify column marks int;
 -- Change the data type of the attendance_date column to DATE
 -- =========================================
 alter table attendance
-modify column attendance_date date
+modify column attendance_date date;
 
 ```
 
