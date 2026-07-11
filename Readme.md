@@ -2,9 +2,16 @@
 
 ## 🧠 Project Overview
 
-This project simulates a real-world School Data Analytics System designed to help school management (principal, teachers, and administration) understand student performance, attendance, and subject-wise trends.
+This project simulates a real-world School Data Analytics System designed to help
+school management (principal, teachers, and administration) understand student
+performance, attendance, and subject-wise trends.
 
-The goal is to transform raw school data into actionable insights that support better academic decision-making.
+The goal is to transform raw school data into actionable insights that support
+better academic decision-making.
+
+> **Scope note:** This project is SQL-only, focused on database design, query
+> writing, and analytical thinking. A Power BI/Tableau dashboard layer is a
+> planned future extension.
 
 ---
 
