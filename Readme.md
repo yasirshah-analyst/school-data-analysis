@@ -8,7 +8,7 @@ The goal is to transform raw school data into actionable insights that support b
 
 ---
 
-## 🎯 Business Problem
+## 🎯 Problem Definition
 
 The school is facing several challenges:
 - Students are underperforming in certain subjects
