@@ -23,7 +23,6 @@ The school is facing several challenges:
 - No proper tracking of student performance
 - Attendance impact is unclear
 - No ranking system for students
-- No class-level (section-level) grouping for teachers or performance tracking
 - Need for data-driven decision-making
 
 ---
