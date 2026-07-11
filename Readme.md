@@ -630,8 +630,6 @@ on su.subject_id = m.subject_id;
 - Attendance strongly affects performance
 - Top students are consistent across subjects
 - Weak students can be identified early
-- Class-wise performance gaps exist — some sections outperform others
-- Certain class-teacher pairings correlate with stronger class averages
 
 ---
 
