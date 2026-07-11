@@ -77,25 +77,6 @@ Tables used in this project:
 
 ## 🔍 Analytical Process
 
-Understand Problem → Define Questions → Write SQL Queries → Analyze Output → Generate Insights → Provide Recommendations
-
----
-
-## 🗂️ Database Structure
-
-Tables used in this project:
-
-- students
-- subjects
-- teachers
-- exams
-- marks
-- attendance
-
----
-
-## 🔍 Analytical Process
-
 Understand Problem → Define Business Questions → Assess Data Quality → Clean &
 Model Data → Write SQL Queries → Analyze Output → Generate Insights → Provide
 Recommendations
