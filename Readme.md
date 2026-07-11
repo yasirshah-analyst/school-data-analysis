@@ -18,13 +18,50 @@ better academic decision-making.
 ## 🎯 Problem Definition
 
 The school is facing several challenges:
+
 - Students are underperforming in certain subjects
 - No proper tracking of student performance
 - Attendance impact is unclear
 - No ranking system for students
+- No class-level (section-level) grouping for teachers or performance tracking
 - Need for data-driven decision-making
 
 ---
+
+## ❓ Business Questions
+
+1. How many students are currently enrolled in the school?
+2. What marks has each student scored in every subject?
+3. Which subjects have the highest and lowest average performance across students?
+4. Who is the top scorer in each subject?
+5. What is each student's overall academic performance (total marks)?
+6. What is each student's average performance across all subjects?
+7. Which students are excelling — scoring above 80 in any subject?
+8. Which students are at risk — scoring below the passing threshold (40) in any subject?
+9. Which subjects are underperforming school-wide, with an average below 50?
+10. How regularly does each student attend school?
+11. Which students are performing above the overall school average?
+12. Who are the top 5 highest-performing students in the school?
+13. How do all students rank against each other based on total performance?
+14. How does each student rank within each individual subject?
+15. How far above or below the subject average is each student performing?
+
+---
+
+## 📂 Data Source
+
+The dataset for this project was generated using AI to simulate a school
+management system. It contains the following tables:
+
+- `students`
+- `teachers`
+- `subjects`
+- `exams`
+- `marks`
+- `attendance`
+
+> Note: This is synthetic data generated for educational and portfolio purposes
+> and does not contain real-world information.
 
 ## 🗂️ Database Structure
 
@@ -44,18 +81,24 @@ Understand Problem → Define Questions → Write SQL Queries → Analyze Output
 
 ---
 
-## 📂 Data Source
+## 🗂️ Database Structure
 
-The dataset for this project was generated using AI to simulate a school management system. It contains the following tables:
+Tables used in this project:
 
-- `students`
-- `teachers`
-- `subjects`
-- `exams`
-- `marks`
-- `attendance`
+- students
+- subjects
+- teachers
+- exams
+- marks
+- attendance
 
-> Note: This is synthetic data generated for educational and portfolio purposes and does not contain real-world information.
+---
+
+## 🔍 Analytical Process
+
+Understand Problem → Define Business Questions → Assess Data Quality → Clean &
+Model Data → Write SQL Queries → Analyze Output → Generate Insights → Provide
+Recommendations
 
 ---
 
@@ -603,10 +646,12 @@ on su.subject_id = m.subject_id;
 ## 📊 Key Insights
 
 - Some subjects have lower performance than others
-- Many students fall below passing threshold
+- Many students fall below the passing threshold
 - Attendance strongly affects performance
 - Top students are consistent across subjects
 - Weak students can be identified early
+- Class-wise performance gaps exist — some sections outperform others
+- Certain class-teacher pairings correlate with stronger class averages
 
 ---
 
@@ -616,7 +661,8 @@ on su.subject_id = m.subject_id;
 - Monitor failing students regularly
 - Improve attendance tracking
 - Identify at-risk students early
-- Use ranking system for motivation
+- Use a ranking system for motivation
+- Review teaching approach in underperforming classes
 
 ---
 
