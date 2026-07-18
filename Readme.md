@@ -629,7 +629,7 @@ on su.subject_id = m.subject_id;
 > **Math 20** has the lowest average marks across all students, at **36**, while **Urdu 7** performs best with an average of **100**. This gap suggests that sujects having low average marks may need curriculum review or additional teaching support.
 
 **Failing Students**
-> **21** students scored below 40 marks in at least one subject, out of **151** total students (**14.57%** of the student body). The subjects with the most failing scores are **Science 16, History 9, Geography 14 and Islamiat 4**, accounting for **2** of these cases.
+> **21** students scored below 40 marks in at least one subject, out of **150** total students (**14%** of the student body). The subjects with the most failing scores are **Science 16, History 9, Geography 14 and Islamiat 4**, accounting for **2** of these cases.
 
 **Top Performers**
 > The top 5 students by total marks scored between **189** and **294**, led by **Ali Ali** with a total of **294**. These students appear consistently high-ranked across multiple subjects, not just one.
