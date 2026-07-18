@@ -625,31 +625,43 @@ on su.subject_id = m.subject_id;
 
 ## 📊 Key Insights
 
-- Some subjects have lower performance than others
-- Many students fall below the passing threshold
-- Attendance strongly affects performance
-- Top students are consistent across subjects
-- Weak students can be identified early
+**Subject Performance**
+> **[Subject]** has the lowest average marks across all students, at **___**, while **[Subject]** performs best with an average of **___**. This gap suggests **[Subject]** may need curriculum review or additional teaching support.
+
+**Failing Students**
+> **___** students scored below 40 marks in at least one subject, out of **___** total students (**___%** of the student body). The subject with the most failing scores is **[Subject]**, accounting for **___** of these cases.
+
+**Top Performers**
+> The top 5 students by total marks scored between **___** and **___**, led by **[Student Name]** with a total of **___**. These students appear consistently high-ranked across multiple subjects, not just one.
+
+**Attendance & Performance**
+> Students with attendance above **___%** had an average mark of **___**, compared to **___** for students with attendance below that threshold. This indicates attendance has a **[strong / moderate / weak]** relationship with academic performance.
+
+**Subjects Below Passing Average**
+> **___** subjects have a class average below 50 marks: **[Subject list]**. These represent the clearest priority areas for intervention.
 
 ---
 
 ## 💡 Recommendations
 
-- Introduce remedial classes for weak subjects
-- Monitor failing students regularly
-- Improve attendance tracking
-- Identify at-risk students early
-- Use a ranking system for motivation
-- Review teaching approach in underperforming classes
+1. **Introduce remedial classes specifically for [Subject]**, since it has the lowest average mark (**___**) of all subjects analyzed — a targeted intervention here will have more impact than a general "improve weak subjects" approach.
+
+2. **Flag and monitor the ___ students currently failing** at least one subject, prioritizing those failing in **[Subject]**, where failure rates are highest.
+
+3. **Investigate the attendance-performance link further**, since students below **___%** attendance averaged **___** fewer marks than those above it — this justifies stricter attendance follow-up as an academic (not just disciplinary) intervention.
+
+4. **Recognize and study top performers** like **[Student Name]** and the rest of the top 5 — understanding what's different about their study patterns or subject balance could inform peer mentoring programs.
+
+5. **Prioritize curriculum review for the ___ subjects below the 50-mark class average** ([Subject list]), rather than treating all subjects as equally in need of support.
 
 ---
 
 ## 📈 Impact
 
-- Improved student performance tracking
-- Early identification of weak students
-- Better decision-making for school management
-- Data-driven academic improvements
+- Identified **___** at-risk students who can now be flagged for early intervention
+- Quantified the performance gap between top and bottom subjects (**___** marks difference)
+- Established a measurable link between attendance and academic outcomes, supporting data-driven attendance policy
+- Created a repeatable ranking system (school-wide and per-subject) that can be re-run each exam cycle to track improvement over time
 
 ---
 
