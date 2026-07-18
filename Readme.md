@@ -658,8 +658,8 @@ on su.subject_id = m.subject_id;
 
 ## 📈 Impact
 
-- Identified **___** at-risk students who can now be flagged for early intervention
-- Quantified the performance gap between top and bottom subjects (**___** marks difference)
+- Identified **21** at-risk students who can now be flagged for early intervention
+- Quantified the performance gap between top and bottom subjects (**64** marks difference)
 - Established a measurable link between attendance and academic outcomes, supporting data-driven attendance policy
 - Created a repeatable ranking system (school-wide and per-subject) that can be re-run each exam cycle to track improvement over time
 
