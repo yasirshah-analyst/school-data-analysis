@@ -629,13 +629,13 @@ on su.subject_id = m.subject_id;
 > **Math 20** has the lowest average marks across all students, at **36**, while **Urdu 7** performs best with an average of **100**. This gap suggests that sujects having low average marks may need curriculum review or additional teaching support.
 
 **Failing Students**
-> **22** students scored below 40 marks in at least one subject, out of **151** total students (**14.57%** of the student body). The subjects with the most failing scores are **Science 16, History 9, Geography 14 and Islamiat 4**, accounting for **2** of these cases.
+> **21** students scored below 40 marks in at least one subject, out of **151** total students (**14.57%** of the student body). The subjects with the most failing scores are **Science 16, History 9, Geography 14 and Islamiat 4**, accounting for **2** of these cases.
 
 **Top Performers**
 > The top 5 students by total marks scored between **189** and **294**, led by **Ali Ali** with a total of **294**. These students appear consistently high-ranked across multiple subjects, not just one.
 
 **Attendance & Performance**
-> Students with attendance above **50.50** had an average mark of **62.28**, compared to **66.48** for students with attendance below that threshold. This indicates attendance has a **weak** relationship with academic performance.
+> Students with attendance above **50.5**% had an average mark of **62.28**, compared to **66.48** for students with attendance below that threshold — meaning lower-attendance students actually scored higher on average. This is a surprising result that runs counter to the common assumption that attendance drives performance, and it's worth investigating further (e.g., checking if this is a real pattern or an artifact of the synthetic/random data generation).
 
 **Subjects Below Passing Average**
 > **11** subjects have a class average below 50 marks: **Islamiyat 2, Computer 9, History 9, Computer 20, English 18, Islamiyat 14, Science 9, Science 16, Math 20, Science 18**. These represent the clearest priority areas for intervention.
@@ -644,15 +644,15 @@ on su.subject_id = m.subject_id;
 
 ## 💡 Recommendations
 
-1. **Introduce remedial classes specifically for [Subject]**, since it has the lowest average mark (**___**) of all subjects analyzed — a targeted intervention here will have more impact than a general "improve weak subjects" approach.
+1. **Introduce remedial classes specifically for **Math 20**, since it has the lowest average mark (**36**) of all subjects analyzed — a targeted intervention here will have more impact than a general "improve weak subjects" approach.
 
-2. **Flag and monitor the ___ students currently failing** at least one subject, prioritizing those failing in **[Subject]**, where failure rates are highest.
+2. **Flag and monitor the 21 students currently failing** at least one subject, prioritizing those failing in **Science 16, History 9, Geography 14 and Islamiat 4**, where failure rates are highest.
 
-3. **Investigate the attendance-performance link further**, since students below **___%** attendance averaged **___** fewer marks than those above it — this justifies stricter attendance follow-up as an academic (not just disciplinary) intervention.
+3. **Re-examine the assumption that attendance drives performance** Contrary to expectation, students with attendance below **50.50**% averaged **66.48**, compared to just **62.28** for students above that threshold — meaning lower-attendance students actually scored higher. Since this data is synthetically generated, this may reflect random noise rather than a real pattern — but if this were real student data, it would justify a deeper investigation (e.g., are high-performing students skipping classes they've already mastered? Is attendance being recorded accurately?) rather than assuming stricter attendance enforcement will improve results.
 
-4. **Recognize and study top performers** like **[Student Name]** and the rest of the top 5 — understanding what's different about their study patterns or subject balance could inform peer mentoring programs.
+4. **Recognize and study top performers** like **Ali Ali** and the rest of the top 5 — understanding what's different about their study patterns or subject balance could inform peer mentoring programs.
 
-5. **Prioritize curriculum review for the ___ subjects below the 50-mark class average** ([Subject list]), rather than treating all subjects as equally in need of support.
+5. **Prioritize curriculum review for the 11 subjects below the 50-mark class average** (Islamiyat 2, Computer 9, History 9, Computer 20, English 18, Islamiyat 14, Science 9, Science 16, Math 20, Science 18), rather than treating all subjects as equally in need of support.
 
 ---
 
