@@ -638,7 +638,7 @@ on su.subject_id = m.subject_id;
 > Students with attendance above **50.50** had an average mark of **62.28**, compared to **66.48** for students with attendance below that threshold. This indicates attendance has a **weak** relationship with academic performance.
 
 **Subjects Below Passing Average**
-> **___** subjects have a class average below 50 marks: **[Subject list]**. These represent the clearest priority areas for intervention.
+> **11** subjects have a class average below 50 marks: **Islamiyat 2, Computer 9, History 9, Computer 20, English 18, Islamiyat 14, Science 9, Science 16, Math 20, Science 18**. These represent the clearest priority areas for intervention.
 
 ---
 
