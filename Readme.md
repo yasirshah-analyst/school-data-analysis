@@ -626,10 +626,10 @@ on su.subject_id = m.subject_id;
 ## 📊 Key Insights
 
 **Subject Performance**
-> **[Subject]** has the lowest average marks across all students, at **___**, while **[Subject]** performs best with an average of **___**. This gap suggests **[Subject]** may need curriculum review or additional teaching support.
+> **Math 20** has the lowest average marks across all students, at **36**, while **Urdu 7** performs best with an average of **100**. This gap suggests that sujects having low average marks may need curriculum review or additional teaching support.
 
 **Failing Students**
-> **___** students scored below 40 marks in at least one subject, out of **___** total students (**___%** of the student body). The subject with the most failing scores is **[Subject]**, accounting for **___** of these cases.
+> **22** students scored below 40 marks in at least one subject, out of **151** total students (**14.57%** of the student body). The subjects with the most failing scores are **Science 16, History 9, Geography 14 and Islamiat 4**, accounting for **___** of these cases.
 
 **Top Performers**
 > The top 5 students by total marks scored between **___** and **___**, led by **[Student Name]** with a total of **___**. These students appear consistently high-ranked across multiple subjects, not just one.
